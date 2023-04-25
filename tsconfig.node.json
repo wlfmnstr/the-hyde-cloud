@@ -3,7 +3,10 @@
     "composite": true,
     "module": "esnext",
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "node_modules/@typed-mxgraph"
+    ]
   },
   "include": ["vite.config.ts"]
 }
